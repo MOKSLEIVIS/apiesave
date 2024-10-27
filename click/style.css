@@ -1,0 +1,91 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(2px);
+    z-index: 999;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    padding: 0;
+    padding-left: 5%;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+
+header nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+    padding-left: 65%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+header nav button {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+header nav button:hover {
+    cursor: pointer;
+}
+
+header nav button h3 {
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 1.1px;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 15%;
+    margin: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 48px;
+}
+
+main button {
+    font-size: 36px;
+    background: rgb(205, 204, 204);
+    border: 0;
+    border-radius: 5px;
+}

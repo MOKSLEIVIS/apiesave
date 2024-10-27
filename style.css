@@ -1,0 +1,325 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(2px);
+    z-index: 999;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    padding: 0;
+    padding-left: 5%;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    padding-left: 65%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+header nav button {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+header nav button:hover {
+    cursor: pointer;
+}
+
+header nav button h3 {
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 1.1px;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    margin: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.apie-mane {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+}
+
+.apie-mane h1 {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-size: 48px;
+}
+
+.apie-mane p {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.patirtis {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-top: 5%;
+    margin: 0;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.patirtis-h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 48px;
+}
+
+.patirties-divs {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-top: 1%;
+    margin: 0;
+    width: 80%;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.patirties-div {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 256px;
+    height: 350px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(160deg, rgb(249, 249, 249), rgb(241, 241, 241), rgb(235, 235, 235), rgb(231, 231, 231));
+    box-shadow: 0 0 10px 5px rgba(208, 208, 208, 0.7);
+    transition: all 0.3s;
+}
+
+@keyframes shake {
+    25% {
+        transform: rotate3d(1, 1, 1, 2deg) scale(1.002);
+    }
+  
+    50% {
+        transform: rotate3d(1, 1, 1, -2deg) scale(1.015);
+    }
+
+    100% {
+        transform: rotate3d(1, 1, 1, 0deg) scale(1);
+    }
+}
+
+.patirties-div:hover {
+    box-shadow: 0 0 10px 5px rgba(190, 190, 190, 0.7);
+    animation-name: shake;
+    animation-duration: 0.8s;
+}
+
+.patirties-div img {
+    padding: 0;
+    margin: 0;
+    width: 128px;
+    height: 128px;
+    border-radius: 15px;
+}
+
+.patirties-div h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.patirties-div p {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(2px);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+footer h1 {
+    padding: 5px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.projektai {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-top: 5%;
+    margin: 0;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.projektai-h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 48px;
+}
+
+.projektu-divs {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    padding-top: 1%;
+    margin: 0;
+    width: 80%;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.projekto-div {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    width: 256px;
+    height: 350px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(160deg, rgb(249, 249, 249), rgb(241, 241, 241), rgb(235, 235, 235), rgb(231, 231, 231));
+    box-shadow: 0 0 10px 5px rgba(208, 208, 208, 0.7);
+    transition: all 0.3s;
+}
+
+.projekto-div:hover {
+    box-shadow: 0 0 10px 5px rgba(190, 190, 190, 0.7);
+    animation-name: shake;
+    animation-duration: 0.8s;
+}
+
+.projekto-div img {
+    padding: 0;
+    margin: 0;
+    width: 128px;
+    height: 128px;
+    border-radius: 15px;
+}
+
+.projekto-div h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.projekto-div p {
+    padding: 0;
+    margin: 0;
+}
+
+.projekto-div button {
+    padding: 3px;
+    margin: 0;
+    margin-top: 7px;
+    background-color: rgb(196, 195, 195);
+    border: 0;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.projekto-div button:hover {
+    cursor: pointer;
+}
+
+@keyframes spinner-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.spinner {
+    position: relative;
+    display: flex;
+    animation: spinner-spin 0.7s linear infinite;
+    width: 256px;
+    height: 256px;
+    padding: 0;
+    margin: 0;
+    margin-top: 30%;
+}

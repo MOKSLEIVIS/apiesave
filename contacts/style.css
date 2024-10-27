@@ -1,0 +1,186 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(2px);
+    z-index: 999;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    padding: 0;
+    padding-left: 5%;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+
+header nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+    padding-left: 65%;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+header nav button {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+header nav button:hover {
+    cursor: pointer;
+}
+
+header nav button h3 {
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    letter-spacing: 1.1px;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 15%;
+    margin: 0;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+main h1 {
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.susisiekimo-metodai {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.susisiekimo-metodai button {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border: 0;
+    transition: all 0.3s;
+}
+
+.susisiekimo-metodai button:hover {
+    transform: scale(1.005);
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.susisiekimo-metodai a {
+    text-decoration: none;
+}
+
+.susisiekimo-metodai button img {
+    width: 64px;
+    height: 64px;
+}
+
+.susisiekimo-metodai button h1 {
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-form-div {
+    position: relative;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 1%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contact-form div {
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.contact-form div label {
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 28px;
+}
+
+.contact-form input {
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.send-form {
+    position: relative;
+    display: flex;
+    padding: 5px;
+    margin: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid 1px;
+    border-radius: 5px;
+    font-size: 24px;
+}
